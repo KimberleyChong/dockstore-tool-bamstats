@@ -15,7 +15,7 @@ dct:creator:
 
 requirements:
   - class: DockerRequirement
-    dockerPull: "quay.io/collaboratory/dockstore-tool-bamstats:1.25-6_1.1"
+    dockerPull: "quay.io/collaboratory/dockstore-tool-bamstats:1.25-6"
 
 hints:
   - class: ResourceRequirement 
@@ -41,7 +41,7 @@ inputs:
 outputs:
   bamstats_report:
     type: File
-    format: "http://edamontology.org/format_3615"
+    format: "http://edamontology.org/format_2572"
     outputBinding:
       glob: bamstats_report.zip
     doc: "A zip file that contains the HTML report and various graphics."

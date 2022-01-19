@@ -1,8 +1,9 @@
 {
   "bam_input": {
-        "class": "File",
-        "path": "https://s3.amazonaws.com/oconnor-test-bucket/sample-data/NA12878.chrom20.ILLUMINA.bwa.CEU.low_coverage.20121211.bam"
-    },
+    "class": "File",
+    "format": "http://edamontology.org/format_2572",
+    "path": "/tmp/NA12878.chrom20.ILLUMINA.bwa.CEU.low_coverage.20121211.bam"
+},
     "bamstats_report": {
         "class": "File",
         "path": "/tmp/bamstats_report.zip"
